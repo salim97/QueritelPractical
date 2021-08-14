@@ -2,6 +2,17 @@
 
 Flutter web assessment, 2021-08-14
 
+## Design pattern used in this project
+
+- [x] dependency injection
+- [x] singleton 
+- [x] MVC or MVVM ( depend on how you look to it)
+
+## features
+- [x] responsive UI
+- [x] clean code for future maintenance
+- [x] easy to export service and model from this app to mobile app using flutter packages OR Windows Junction ( to mirror common folder in other project )
+
 ## file structure
 files in lib folder are structured in this way
 
