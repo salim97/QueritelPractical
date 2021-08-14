@@ -59,3 +59,36 @@ class CatServiceImpl extends RestAPI implements CatService {
   }
 
 }
+
+class CatServiceFake extends RestAPI implements CatService{
+  @override
+  late String endPointURL;
+
+  @override
+  late List<CatModel> list;
+
+  @override
+  Future<Response> add(CatModel model) {
+    // TODO: implement add
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<Response> delete(CatModel model) {
+    // TODO: implement delete
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<Response> getAll() {
+    // TODO: implement getAll
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<Response> update(CatModel model) {
+    // TODO: implement update
+    throw UnimplementedError();
+  }
+
+}

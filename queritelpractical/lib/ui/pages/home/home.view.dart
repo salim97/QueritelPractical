@@ -26,7 +26,7 @@ class HomeView extends StatelessWidget {
           breakpoints: ScreenBreakpoints(tablet: 760, desktop: 1380, watch: 300),
           desktop: _HomeDesktop(homeController: _),
           tablet: _HomeDesktop(homeController: _),
-          mobile: _HomeMobile(),
+          mobile: _HomeMobile(homeController: _),
         );
       },
     );

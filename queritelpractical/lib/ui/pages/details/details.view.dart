@@ -28,7 +28,7 @@ class DetailsView extends StatelessWidget {
           breakpoints: ScreenBreakpoints(tablet: 760, desktop: 1380, watch: 300),
           desktop: _DetailsDesktop(detailsController: _),
           tablet: _DetailsDesktop(detailsController: _),
-          mobile: _DetailsMobile(),
+          mobile: _DetailsMobile(detailsController: _),
         );
       },
     );

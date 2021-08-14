@@ -59,3 +59,37 @@ class DogServiceImpl extends RestAPI implements DogService {
   }
 
 }
+
+
+class DogServiceFake extends RestAPI implements DogService {
+  @override
+  late String endPointURL;
+
+  @override
+  late List<DogModel> list;
+
+  @override
+  Future<Response> add(DogModel model) {
+    // TODO: implement add
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<Response> delete(DogModel model) {
+    // TODO: implement delete
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<Response> getAll() {
+    // TODO: implement getAll
+    throw UnimplementedError();
+  }
+
+  @override
+  Future<Response> update(DogModel model) {
+    // TODO: implement update
+    throw UnimplementedError();
+  }
+
+}
