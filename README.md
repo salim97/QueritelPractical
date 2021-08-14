@@ -3,7 +3,7 @@
 Flutter web assessment, 2021-08-14
 
 ## file structure
-in lib folder file whom end
+files in lib folder are structured in this way
 
 | dart files  | Used for |
 | ------------- | ------------- |
@@ -19,7 +19,9 @@ i used Getx to get some design pattern ready made out of the box, i usually use 
 
 inside lib folder there is 3 subfolders 
 app for class used by the app in general like theme class ( dark mode, light mode ...etc)
-common contains model + service class used by web app and mobile app ( in order to share it with android in the future)
+
+common folder contains model + service class used by web app and mobile app ( in order to share it with android in the future)
+
 ui folder contains code related to UI
 for each X.view.dart there is X.controller.dart file ( some flutter developer prefer to name it X.viewmodel.dart ...) to separate dart code related to UI from dart code related to business logic related to page and data flow between UI and services
 
